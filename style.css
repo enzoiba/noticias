@@ -1,0 +1,46 @@
+.caja{
+  background-color: aqua;
+height: 400px;
+}
+.caja1{
+  height: 200px;
+background-color: blueviolet;
+}
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+  height: 1000px;
+
+
+}
+    
+header {
+    grid-column: span 6 / span 6;
+  text-align: center;
+  }
+
+main{
+    grid-column: span 5 / span 5;
+    grid-row: span 3 / span 3;
+    grid-row-start: 2;
+  }
+
+
+
+nav {
+    grid-row: span 3 / span 3;
+    grid-column-start: 6;
+    grid-row-start: 2;
+}
+
+footer {
+    grid-column: span 6 / span 6;
+    grid-row-start: 5;
+}
+        
+
