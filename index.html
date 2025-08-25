@@ -1,98 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Noticias de todo el mundo</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Diario Global</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body class="parent">
+<body>
 
-  <header>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO06_q_WvWRoT2kP2T7Mk23dND5Zg9a_bvqA&s" alt="Logo del sitio">
-    <p class="subtitulo">Argentina - Estados Unidos - España - Europa - América - Economía</p>
+  <!-- ENCABEZADO -->
+  <header class="header">
+    <div class="container">
+     <div class="logo">
+      <img src="https://cdn-icons-png.flaticon.com/512/21/21601.png" alt="" width="200px" height="200px"/>
+      <p> Noticias globales </p>
+    </div>
+     <nav class="nav">
+        <ul>
+          <li><a href="file:///C:/Users/opce07/Desktop/enzo/noticia%204.html">Inicio</a></li>
+          <li><a href="file:///C:/Users/opce07/Desktop/enzo/noticia%206.html">Mundo</a></li>
+          <li><a href="file:///C:/Users/opce07/Desktop/enzo/noticia%208.html">Arte</a></li>
+          <li><a href="file:///C:/Users/opce07/Desktop/enzo/noticia%207.html">Economía</a></li>
+          <li><a href="file:///C:/Users/opce07/Desktop/enzo/noticia9.html">Tecnología</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
+  <!-- NOTICIA DESTACADA -->
+  <section class="featured">
+    <div class="container">
+      <article class="main-news">
+        <img src="https://s.yimg.com/ny/api/res/1.2/PFIm2vdJZHlf3bnveu15Hg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM3Ng--/https://media.zenfs.com/es/la_republica_articles_761/ae48789ba981956646d0f6a1c46b68d0" alt="Vacuna" />
+        <h2>Rusia anuncia vacuna contra el cáncer en etapa final</h2>
+        <p>Putin confirmó que Rusia avanza con una vacuna contra el cáncer que ya ha dado buenos resultados en pacientes. El mundo científico observa con atención.</p>
+        <a href="#">Leer más</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE NOTICIAS -->
+  <main class="news-grid container">
+    <article class="news-item">
+      <img src="https://i.pinimg.com/736x/4b/41/25/4b4125cbd59cc788ab0bb7c5f34cdebb.jpg" alt="Messi" />
+      <h3>Messi vuelve al Barcelona en un giro inesperado</h3>
+      <a href="file:///C:/Users/opce07/Desktop/enzo/noticia%202.html">Ver nota</a>
+    </article>
+
+    <article class="news-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPRlcJ1WJ5Qe7qe09rOQG0kKCQ2lxD-cq2cg&s" alt="Bart Simpson" />
+      <h3>Bart Simpson fue grabado robando en el centro de Springfield</h3>
+      <a href="file:///C:/Users/opce07/Desktop/enzo/noticia%201.html">Ver nota</a>
+    </article>
+
+    <article class="news-item">
+      <img src="https://media.puntal.com.ar/p/f42fbe80fa6dbba83445a66d190e291c/adjuntos/270/imagenes/001/512/0001512440/1200x0/smart/2022-08-18-mqs-mirtha-legrand-hbo-hbojpg.jpg" alt="Mirtha Legrand" />
+      <h3>Mirtha Legrand revela el secreto de su longevidad</h3>
+      <a href="file:///C:/Users/opce07/Desktop/enzo/noticia%203.html">Ver nota</a>
+    </article>
+
+    <article class="news-item">
+      <img src="https://i.blogs.es/aa6e39/ss_5a3d76d313bfdc6dc0b31c7724fae70f39a83d5a.1920x1080/1366_2000.jpeg" alt="Backrooms" />
+      <h3>Backrooms: nueva atracción de terror en Texas</h3>
+      <a href="file:///C:/Users/opce07/Desktop/enzo/noticia%205.html">Ver nota</a>
+    </article>
+  </main>
+
   
-    <main>
-      <div>
-    <a href="noticia_vacuna.html">
-      <h2>Rusia anuncia vacuna contra el cáncer en fase final de desarrollo</h2>
-      <p>El presidente de Rusia, Vladimir Putin, anunció oficialmente que el país está en la etapa final del desarrollo de una vacuna contra varios tipos de cáncer. Según científicos del Centro Nacional de Investigación de Oncología, los ensayos clínicos iniciales han mostrado resultados positivos en pacientes con cáncer de pulmón y páncreas. La comunidad científica internacional sigue con atención este histórico avance.</p>
-      <img src="https://img.freepik.com/foto-gratis/investigador-cientifico-analiza-muestra-sangre-tubo-ensayo-laboratorio_23-2148867600.jpg" alt="Vacuna contra el cáncer">
-    </a>
-  </div>
-      
-    
-       
-          <a href="noticia2.html">
-            <img src="https://i.pinimg.com/736x/4b/41/25/4b4125cbd59cc788ab0bb7c5f34cdebb.jpg" alt="Noticia 2">
-            <h3>¡Bombazo mundial! Messi vuelve al Barcelona en un giro inesperado</h3>
-          </a>
-   
-      
-          <a href="noticia1.html">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPRlcJ1WJ5Qe7qe09rOQG0kKCQ2lxD-cq2cg&s" alt="Noticia 1">
-            <h3>Bart Simpson fue grabado en pleno centro robando</h3>
-          </a>
-        
-
-      
-       
-          <a href="noticia3.html">
-            <img src="https://media.puntal.com.ar/p/f42fbe80fa6dbba83445a66d190e291c/adjuntos/270/imagenes/001/512/0001512440/1200x0/smart/2022-08-18-mqs-mirtha-legrand-hbo-hbojpg.jpg" alt="Noticia 3">
-            <h3>¡Mirtha revela el secreto de su longevidad!</h3>
-          </a>
-       
-
-      
-          <a href="noticia4.html">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEzknZ-X1-sDgUXy25l226Dztx_sQJLyofeg&s" alt="Noticia 4">
-            <h3>Extraña figura aparece en cámaras de seguridad de un hospital abandonado</h3>
-          </a>
-       
-      
-
-      
-          <a href="noticia5.html">
-            <img src="https://i.blogs.es/aa6e39/ss_5a3d76d313bfdc6dc0b31c7724fae70f39a83d5a.1920x1080/1366_2000.jpeg" alt="Noticia 5">
-            <h3>Atracción de los 'Backrooms' en Texas: experiencia inmersiva entre miedo y misterio</h3>
-          </a>
-       
-
-       
-          <a href="noticia6.html">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD5tHF58O2C7lawKIHCcQu-pezi4jtg_9iMA&s" alt="Noticia 6">
-            <h3>Tragedia en Santa María: seis personas asesinadas en una vivienda rural</h3>
-          </a>
-      
-
-     
-          <a href="noticia7.html">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKniguWJLeayvNTgWpL5tESPSrMp9z9cvl-w&s" alt="Noticia 7">
-            <h3>Argentina reduce retenciones agropecuarias para impulsar exportaciones</h3>
-          </a>
-      
-
-     
-          <a href="noticia6.html">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD5tHF58O2C7lawKIHCcQu-pezi4jtg_9iMA&s" alt="Noticia repetida">
-            <h3>Tragedia en Santa María: seis personas asesinadas en una vivienda rural</h3>
-          </a>
-      
-      
-    </main>
-
-    
-      <a href="https://www.youtube.com/watch?v=5rVI4xxTSqA" target="_blank">
-        <img src="https://img.freepik.com/vector-gratis/plantilla-banner-vertical-gradiente_23-2151174667.jpg" alt="Publicidad">
-      </a>
-    
-  </div>
-
-  <footer>
-    <iframe width="560" height="154" src="https://www.youtube.com/embed/MGlZ0feeJao?si=U0O5ZLl5IgxbwQNV" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Diario Global - Todos los derechos reservados.</p>
+    </div>
   </footer>
 
 </body>
 </html>
+
