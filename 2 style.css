@@ -104,14 +104,14 @@ margin-top: 20px;
         height: auto;
     }
 
-  .nave{
-    opacity: 0;
-    display:none;
-    height: 0px;
-  }
+nav{
+    margin: 10px;
+
+
+}
 
     main {
-        margin: 10px;
+        margin: 24px;
     }
 
     .nav ul {
